@@ -11,17 +11,16 @@ Repo: https://github.com/alyrmrt/project4.api
 Live Site:
 
 List of Technologies:
-* ReactJS.
-* Ruby on Rails
-* RestFul API Services
-* Third-Party API (Google Books API)
-*Javascript
-*Cascading Style Sheets(CSS)
-*SaSS (SCSS)
-*Axios
-*Bootstrap
-*superagent
-*Git
+ReactJS.
+Ruby on Rails
+RestFul API Services
+Third-Party API (Google Books API)
+Javascript
+Cascading Style Sheets(CSS)
+SaSS (SCSS)
+Axios
+Bootstrap
+Git
 
 Development Process:
 
