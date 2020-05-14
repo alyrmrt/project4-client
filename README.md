@@ -10,17 +10,17 @@ BACK END:
 Repo: https://github.com/alyrmrt/project4.api
 Live Site:
 
-List of Technologies:
-ReactJS.
-Ruby on Rails
-RestFul API Services
-Third-Party API (Google Books API)
-Javascript
-Cascading Style Sheets(CSS)
-SaSS (SCSS)
-Axios
-Bootstrap
-Git
+# List of Technologies:
+# ReactJS.
+# Ruby on Rails
+# RestFul API Services
+# Third-Party API (Google Books API)
+# Javascript
+# Cascading Style Sheets(CSS)
+# SaSS (SCSS)
+# Axios
+# Bootstrap
+# Git
 
 Development Process:
 
@@ -36,11 +36,11 @@ have the book without visiting any other page with this feauture.
 
 Wireframes and user stories:
 
-As an unregistered user, I would like to sign up with email and password.
-As a registered user, I would like to sign in with email and password.
-As a signed in user, I would like to change password.
-As a signed in user, I would like to sign out.
-As a signed in user, I would to create new book list.
-As a signed in user, I would to edit item on my book list.
-As a signed in user, I would to delete item on my list.
-As a user, I want to make internet search for the any book.
+# As an unregistered user, I would like to sign up with email and password.
+# As a registered user, I would like to sign in with email and password.
+# As a signed in user, I would like to change password.
+# As a signed in user, I would like to sign out.
+# As a signed in user, I would to create new book list.
+# As a signed in user, I would to edit item on my book list.
+# As a signed in user, I would to delete item on my list.
+# As a user, I want to make internet search for the any book.
