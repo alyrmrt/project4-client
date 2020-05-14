@@ -15,9 +15,10 @@ class Books extends Component {
     searchBook = (event) => {
       event.preventDefault()
       request
-        .get('https://www.googleapis.com/books/v1/volumes')
+        .get('https://www.googleapis.com/books/v1/volumes/')
         .query({ q: this.state.searchField })
         .then((data) => {
+          console.log(data)
           this.setState({ books: [...data.body.items] })
         })
     }

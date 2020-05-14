@@ -19,7 +19,7 @@ const unauthenticatedOptions = (
 )
 
 const Header = ({ user }) => (
-  <Navbar bg="primary" variant="dark" expand="md">
+  <Navbar bg="secondary" variant="dark" expand="md">
     <Navbar.Brand href="#">
        HOME
     </Navbar.Brand>

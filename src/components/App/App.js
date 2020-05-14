@@ -61,6 +61,12 @@ class App extends Component {
           <AuthenticatedRoute user={user} path='/search' render={() => (
             <Search msgAlert={this.msgAlert} user={user} />
           )} />
+          <Route exact path='/' render={() => (
+            <h1 className="entry border">Welcome to BOOK FINDER</h1>
+          )} />
+          <Route exact path='/' render={() => (
+            <h1 className="entry border">The Pen is mightier than The Sword</h1>
+          )} />
         </main>
       </Fragment>
     )
