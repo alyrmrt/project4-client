@@ -9,6 +9,9 @@ const BookCard = (props) => {
         <p>{props.author} </p>
         <p>{props.published}</p>
         <p>{props.infoLink}</p>
+        <button onClick={() => {
+          console.log('hi')
+        }}>Add to list</button>
       </div>
     </div>
   )

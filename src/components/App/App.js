@@ -62,11 +62,12 @@ class App extends Component {
             <Search msgAlert={this.msgAlert} user={user} />
           )} />
           <Route exact path='/' render={() => (
-            <h1 className="entry border">Welcome to BOOK FINDER</h1>
+            <div>
+              <h1 className="entry border">Welcome to BOOK FINDER</h1>
+              <h1 className="entry border">The Pen is mightier than The Sword</h1>
+            </div>
           )} />
-          <Route exact path='/' render={() => (
-            <h1 className="entry border">The Pen is mightier than The Sword</h1>
-          )} />
+
         </main>
       </Fragment>
     )
