@@ -9,7 +9,7 @@ const BookCard = (props) => {
         <p>{props.author} </p>
         <p>{props.published}</p>
         <p>{props.infoLink}</p>
-        <button className="url primary" onClick={() => {
+        <button color="primary" className="url" onClick={() => {
           window.open(props.infoLink)
         }}>Go to the Book</button>
       </div>
