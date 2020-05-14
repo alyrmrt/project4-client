@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from 'react'
 import { Route } from 'react-router-dom'
-
 import AuthenticatedRoute from '../AuthenticatedRoute/AuthenticatedRoute'
 import AutoDismissAlert from '../AutoDismissAlert/AutoDismissAlert'
 import Header from '../Header/Header'
@@ -9,6 +8,7 @@ import SignIn from '../SignIn/SignIn'
 import SignOut from '../SignOut/SignOut'
 import ChangePassword from '../ChangePassword/ChangePassword'
 import CreateList from '../List/CreateList'
+import Search from '../Search'
 
 class App extends Component {
   constructor () {
@@ -57,6 +57,9 @@ class App extends Component {
           )} />
           <AuthenticatedRoute user={user} path='/create-list' render={() => (
             <CreateList msgAlert={this.msgAlert} user={user} />
+          )} />
+          <AuthenticatedRoute user={user} path='/search' render={() => (
+            <Search msgAlert={this.msgAlert} user={user} />
           )} />
         </main>
       </Fragment>

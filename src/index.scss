@@ -1,1 +1,26 @@
 @import '~bootstrap/scss/bootstrap';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  border-radius: 20px;
+  padding: 20px 0 20px 0;
+  background: #34b7eb;
+  color: gray;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.search-area {
+  text-align: center;
+  margin-top: 5px;
+}
+
+#sub {
+  background: #343a40;
+  color: white;
+
+}
