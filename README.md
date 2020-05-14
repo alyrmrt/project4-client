@@ -23,6 +23,16 @@ Live Site:
 - Bootstrap
 - Git
 
+### Catalog of Routes
+
+| **Verb                        ** | **URI Pattern** |
+|:-----------------------------|:-----------------|
+| GET                             | /create-list         |
+| GET                             | /create-list        |
+| POST                            | /create-list          |
+| PATCH                           | /create-list             |
+| DELETE                          | /create-list
+
 # Development Process:
 
 The idea of project was using  third part Google Books Api and creating simple page
@@ -30,7 +40,7 @@ application with this API. App provides feauture that searching through Google B
 user can open the new browser page to view searched books on internet. Also user able to create list which
 consisted with book information as Title, Author and Url address that comes from API search. User also be able to make changes on create list. Such as delete book or edit book.
 
-Future feature additions - Unsolved Issues:
+# Future feature additions - Unsolved Issues:
 
 One of the feature that i am planing is adding downloadable ebooks API from different resources. User be able to
 have the book without visiting any other page with this feauture.
