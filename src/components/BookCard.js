@@ -12,6 +12,9 @@ const BookCard = (props) => {
         <button color="primary" className="url" onClick={() => {
           window.open(props.infoLink)
         }}>Go to the Book</button>
+        <button color="primary" className="url" onClick={() => {
+          window.open(props.infoLink)
+        }}>Go to the Book</button>
       </div>
     </div>
   )
