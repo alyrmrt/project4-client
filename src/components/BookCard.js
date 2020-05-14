@@ -10,8 +10,8 @@ const BookCard = (props) => {
         <p>{props.published}</p>
         <p>{props.infoLink}</p>
         <button onClick={() => {
-          console.log('hi')
-        }}>Add to list</button>
+          window.open(props.infoLink)
+        }}>Go to the Book</button>
       </div>
     </div>
   )
