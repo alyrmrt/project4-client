@@ -27,7 +27,7 @@ class CreateList extends Component {
 
     componentDidMount () {
       axios({
-        url: 'http://localhost:4741/books',
+        url: 'https://bookfindermurat.herokuapp.com/',
         method: 'get',
         headers: {
           'Authorization': `Bearer ${this.props.user.token}`
@@ -53,7 +53,7 @@ class CreateList extends Component {
 
     addBook = (event) => {
       axios({
-        url: 'http://localhost:4741/books',
+        url: 'https://bookfindermurat.herokuapp.com/',
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${this.props.user.token}`
@@ -79,7 +79,7 @@ class CreateList extends Component {
 
     updateBook = (id) => {
       axios({
-        url: 'http://localhost:4741/books/' + this.state.editBookData.id,
+        url: 'https://bookfindermurat.herokuapp.com/' + this.state.editBookData.id,
         method: 'PATCH',
         headers: {
           'Authorization': `Bearer ${this.props.user.token}`
@@ -105,7 +105,7 @@ class CreateList extends Component {
 
     deleteBook (id) {
       axios({
-        url: 'http://localhost:4741/books/' + id,
+        url: 'https://bookfindermurat.herokuapp.com/' + id,
         method: 'DELETE',
         headers: {
           'Authorization': `Bearer ${this.props.user.token}`
@@ -118,7 +118,7 @@ class CreateList extends Component {
 
     _refreshBooks () {
       axios({
-        url: 'http://localhost:4741/books',
+        url: 'https://bookfindermurat.herokuapp.com/',
         method: 'get',
         headers: {
           'Authorization': `Bearer ${this.props.user.token}`
