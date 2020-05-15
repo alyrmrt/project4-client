@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { withRouter } from 'react-router-dom'
 import { Input, FormGroup, Label, Modal, ModalHeader, ModalBody, ModalFooter, Table, Button } from 'reactstrap'
 import axios from 'axios'
+import apiUrl from '../../apiConfig'
 
 class CreateList extends Component {
     state = {
@@ -27,7 +28,7 @@ class CreateList extends Component {
 
     componentDidMount () {
       axios({
-        url: 'https://bookfindermurat.herokuapp.com/',
+        url: `${apiUrl}/books`,
         method: 'get',
         headers: {
           'Authorization': `Bearer ${this.props.user.token}`
@@ -53,7 +54,7 @@ class CreateList extends Component {
 
     addBook = (event) => {
       axios({
-        url: 'https://bookfindermurat.herokuapp.com/',
+        url: `${apiUrl}/books`,
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${this.props.user.token}`
@@ -79,7 +80,7 @@ class CreateList extends Component {
 
     updateBook = (id) => {
       axios({
-        url: 'https://bookfindermurat.herokuapp.com/' + this.state.editBookData.id,
+        url: `${apiUrl}/books` + this.state.editBookData.id,
         method: 'PATCH',
         headers: {
           'Authorization': `Bearer ${this.props.user.token}`
@@ -105,7 +106,7 @@ class CreateList extends Component {
 
     deleteBook (id) {
       axios({
-        url: 'https://bookfindermurat.herokuapp.com/' + id,
+        url: `${apiUrl}/books` + id,
         method: 'DELETE',
         headers: {
           'Authorization': `Bearer ${this.props.user.token}`
@@ -118,7 +119,7 @@ class CreateList extends Component {
 
     _refreshBooks () {
       axios({
-        url: 'https://bookfindermurat.herokuapp.com/',
+        url: `${apiUrl}/books`,
         method: 'get',
         headers: {
           'Authorization': `Bearer ${this.props.user.token}`
