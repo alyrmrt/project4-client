@@ -8,7 +8,8 @@ class CreateList extends Component {
       books: [],
       newBookData: {
         title: '',
-        author: ''
+        author: '',
+        url: ''
       },
       editBookData: {
         id: '',

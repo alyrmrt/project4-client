@@ -14,7 +14,7 @@ const BookCard = (props) => {
         }}>Go to the Book</button>
         <button color="primary" className="url" onClick={() => {
           window.open(props.infoLink)
-        }}>Go to the Book</button>
+        }}>add this book </button>
       </div>
     </div>
   )
