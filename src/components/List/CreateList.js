@@ -80,7 +80,7 @@ class CreateList extends Component {
 
     updateBook = (id) => {
       axios({
-        url: `${apiUrl}/books` + this.state.editBookData.id,
+        url: `${apiUrl}/books/` + this.state.editBookData.id,
         method: 'PATCH',
         headers: {
           'Authorization': `Bearer ${this.props.user.token}`
@@ -106,7 +106,7 @@ class CreateList extends Component {
 
     deleteBook (id) {
       axios({
-        url: `${apiUrl}/books` + id,
+        url: `${apiUrl}/books/` + id,
         method: 'DELETE',
         headers: {
           'Authorization': `Bearer ${this.props.user.token}`
