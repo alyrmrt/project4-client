@@ -168,6 +168,14 @@ class CreateList extends Component {
                   this.setState({ newBookData })
                 }} />
               </FormGroup>
+              <FormGroup>
+                <Label for="url">Url</Label>
+                <Input id="url" value={this.state.newBookData.url} onChange={(event) => {
+                  const { newBookData } = this.state
+                  newBookData.url = event.target.value
+                  this.setState({ newBookData })
+                }} />
+              </FormGroup>
             </ModalBody>
             <ModalFooter>
               <Button color="primary" onClick={this.addBook.bind(this)}>Add A New Book</Button>{' '}
