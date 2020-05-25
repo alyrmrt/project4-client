@@ -49,6 +49,7 @@ One of the feature that i am planing is adding downloadable ebooks API from diff
 have the book without visiting any other page with this feauture.
 
 # Wireframes and user stories:
+![Alt text](https://user-images.githubusercontent.com/45580552/82835335-b73e9580-9e91-11ea-8832-b51f6e9f1d95.png)
 
 - As an unregistered user, I would like to sign up with email and password.
 - As a registered user, I would like to sign in with email and password.
