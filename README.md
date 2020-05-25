@@ -1,5 +1,6 @@
 # Book Finder
-Book Finder, book data apps based on React.js
+Book Finder, book data apps based on React.JS. Allows user to search any book
+on Google Books API with the keyword. Also user can create a booklist th
 
 By Murat ALAYURT
 
@@ -55,3 +56,6 @@ have the book without visiting any other page with this feauture.
 - As a signed in user, I would to edit item on my book list.
 - As a signed in user, I would to delete item on my list.
 - As a user, I want to make internet search for the any book.
+
+# Screenshoots of Book Finder App
+![Alt text](https://user-images.githubusercontent.com/45580552/82759053-95251480-9db8-11ea-9ca5-657e675a2f0b.png)
