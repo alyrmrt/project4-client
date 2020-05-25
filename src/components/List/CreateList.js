@@ -35,7 +35,7 @@ class CreateList extends Component {
         }
       })
         .then(res => {
-          console.log(res)
+          // console.log(res)
           this.setState({ books: res.data.books })
         })
     }
@@ -126,7 +126,7 @@ class CreateList extends Component {
         }
       })
         .then(res => {
-          console.log(res)
+          // console.log(res)
           this.setState({ books: res.data.books })
         })
     }
