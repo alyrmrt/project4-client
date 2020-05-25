@@ -1,16 +1,17 @@
 # Book Finder
-Book Finder, book data apps based on React.JS. Allows user to search any book
-on Google Books API with the keyword. Also user can create a booklist th
+Book Finder, book data apps based on React.js. Allows user to search books with keyword
+on Google Books API. After api search user can visit Google Books Library via provided link.
+And views book information, reads sample of book and buys book from Google Books Library.
 
 By Murat ALAYURT
 
 # FRONT END:
 Repo: https://github.com/alyrmrt/project4.client
-Live Site:
+Live Site:https://alyrmrt.github.io/project4-client/#/
 
 # BACK END:
 Repo: https://github.com/alyrmrt/project4.api
-Live Site:
+Deployed Site:https://bookfindermurat.herokuapp.com
 
 # List of Technologies:
 - ReactJS.
@@ -23,6 +24,7 @@ Live Site:
 - Axios
 - Bootstrap
 - Git
+- SQL Database
 
 ### Catalog of Routes
 
